@@ -1,0 +1,17 @@
+<lircy>
+	<!-- connection, bot and prefs tags are mandatory!! -->
+	<connection server="irc.gamesurge.net" port="6667" channels="#settlement" />
+	<bot nick="SettleBot" realname="settlementicbot" />
+	<prefs senddelay="200" channelsync="true" logfile="log" channellog="channellogs"/> <!-- chanellog actually points to a folder, not a file) -->
+	<switches uselogfile="true" usechannellog="true" />
+	<!-- command/event params and returns -->
+	<commands>
+		<params>
+			<die p="r49k2w"/>
+		</params>
+		<returns>
+			<OnBotJoin p="Herro :3" />
+			<servers p="url1,url2,url" />
+		</returns>
+	</commands>
+</lircy>
