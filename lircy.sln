@@ -1,6 +1,6 @@
 ﻿
-Microsoft Visual Studio Solution File, Format Version 10.00
-# Visual Studio 2008
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "lircy_linux", "lircy\lircy_linux.csproj", "{1DF5B766-E455-4AD6-B4E1-85B0E984EBC9}"
 EndProject
 Global
@@ -13,6 +13,9 @@ Global
 		{1DF5B766-E455-4AD6-B4E1-85B0E984EBC9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1DF5B766-E455-4AD6-B4E1-85B0E984EBC9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1DF5B766-E455-4AD6-B4E1-85B0E984EBC9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(MonoDevelopProperties) = preSolution
 		StartupItem = lircy\lircy_linux.csproj
