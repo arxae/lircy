@@ -1,0 +1,1 @@
+A IRC Bot written in **C#**, extensible by **LUA**
